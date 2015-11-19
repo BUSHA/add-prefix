@@ -1,0 +1,62 @@
+{
+  "name": "Add prefix",
+  "description": "Add prefix to layer name",
+  "author": "Mikhail Gorlach",
+  "authorEmail": "busha3@gmail.com",
+  "homepage": "https://github.com/sebj/Rename-Layers",
+  "version": 1.0,
+  "bundleVersion": 1.0,
+  "compatibleVersion": 3.3,
+  "identifier": "me.sebj.rename-layers",
+  "commands": [
+    {
+      "script": "mdpi.cocoascript",
+      "handler": "onRun",
+      "name": "Add mdpi",
+      "identifier": "add-prefix-mdpi"
+    },
+     {
+      "script": "hdpi.cocoascript",
+      "handler": "onRun",
+      "name": "Add hdpi",
+      "identifier": "add-prefix-hdpi"
+    },
+         {
+      "script": "xhdpi.cocoascript",
+      "handler": "onRun",
+      "name": "Add xhdpi",
+      "identifier": "add-prefix-xhdpi"
+    },
+         {
+      "script": "xxhdpi.cocoascript",
+      "handler": "onRun",
+      "name": "Add xxhdpi",
+      "identifier": "add-prefix-xxhdpi"
+    },
+         {
+      "script": "xxxhdpi.cocoascript",
+      "handler": "onRun",
+      "name": "Add xxxhdpi",
+      "identifier": "add-prefix-xxxhdpi"
+    },
+    {
+      "script": "custom.cocoascript",
+      "handler": "onRun",
+      "shortcut": "control command r",
+      "name": "Add custom",
+      "identifier": "add-prefix-custom"
+    }
+  ],
+  "menu": {
+    
+    "items": [
+      "add-prefix-mdpi",
+      "add-prefix-hdpi",
+      "add-prefix-xhdpi",
+      "add-prefix-xxhdpi",
+      "add-prefix-xxxhdpi",
+      "add-prefix-custom"
+    ],
+    "title": "Add prefix"
+  }
+}
